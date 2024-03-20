@@ -7,8 +7,8 @@ export const StoreModal = () => {
    <Modal 
     title="Create Store" 
     description="Add a new store to manage products and catagories" 
-    isOpen ={false}
-    onClose={()=>{}}>
+    isOpen ={StoreModal.isOpen}
+    onClose={StoreModal.onClose}>
     Feture Create Stroe Frorm
    </Modal>
   
