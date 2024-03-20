@@ -15,4 +15,9 @@ module.exports = {
     },
   },
   plugins: [],
-}
+  corePlugins: {
+    // Include the border utility layer
+    border: true,
+  },
+};
+
